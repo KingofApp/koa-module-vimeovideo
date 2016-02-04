@@ -13,10 +13,10 @@
   },
   "requires": [],
   "canContain": false,
-  "view": "modules/vimeovideo/index.html",
-  "files": ["modules/vimeovideo/controller.js", "modules/vimeovideo/directive.js"],
+  "view": "http://resources.kingofapp.com/modules/vimeovideo/index.html",
+  "files": ["http://resources.kingofapp.com/modules/vimeovideo/controller.js", "http://resources.kingofapp.com/modules/vimeovideo/directive.js"],
   "scope": {
-    "videoid": "136882652"
+    "videoid": ""
   },
   "config": [{
     "key": "videoid",

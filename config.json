@@ -29,9 +29,8 @@
     "windows"
   ],
   "view": "modules/vimeovideo/index.html",
-  "controller": "modules/vimeovideo/controller.js",
   "files": [
-    "modules/vimeovideo/directive.js"
+    "modules/vimeovideo/controller.js", "modules/vimeovideo/directive.js"
   ],
   "scope": {
     "videoid": ""

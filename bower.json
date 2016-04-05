@@ -1,0 +1,13 @@
+{
+  "name": "koapp-module-vimeovideo",
+  "authors": "King of App",
+  "description": "vimeovideo module for King of App",
+  "keywords": [
+    "kingofapp",
+    "module"
+  ],
+  "license": "MIT",
+  "homepage": "http://kingofapp.com",
+  "private": true,
+  "dependencies": {}
+}

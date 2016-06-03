@@ -15,7 +15,7 @@
   },
   "icon": "vimeo",
   "type": "A",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "King of App",
   "category": [
     "media"
@@ -51,13 +51,12 @@
     "market": true
   },
   "images": {
-    "list": "modules/vimeovideo/images/list.png",
+    "list": "modules/vimeovideo/images/vimeo_list.png",
     "screenshots": [
-      "modules/vimeovideo/images/screenshot01.png",
-      "modules/vimeovideo/images/screenshot02.png"
+      "modules/vimeovideo/images/vimeo_screenshots01.png"
     ],
-    "popover": "modules/vimeovideo/images/popover.png",
-    "banner": "modules/vimeovideo/images/banner.png",
-    "logo": "modules/vimeovideo/images/logo.png"
+    "popover": "modules/vimeovideo/images/vimeo_popover.png",
+    "banner": "modules/vimeovideo/images/vimeo_popover.png",
+    "logo": "modules/vimeovideo/images/vimeo_icon.png"
   }
 }

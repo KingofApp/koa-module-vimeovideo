@@ -2,16 +2,16 @@
   "name": "Vimeo Video",
   "identifier": "vimeovideo",
   "description": {
-    "es-ES": "Activando este módulo ofrecerás a tus seguidores tus videos ya sea en forma de canal como si tu cuenta es como usuario, en función de la url que entres en el apartado de configuración. Por ejemplo si entras la url de tu canal http://vimeo.com/channels/MiCanal.",
-    "en-US": "Activando este módulo ofrecerás a tus seguidores tus videos ya sea en forma de canal como si tu cuenta es como usuario, en función de la url que entres en el apartado de configuración. Por ejemplo si entras la url de tu canal http://vimeo.com/channels/MiCanal."
+    "es-ES": "Comparte con los usuarios tu canal o colección de videos a través de Vimeo. Actívalo entrando la url en el apartado de configuración, por ejemplo http://vimeo.com/channels/MiCanal.",
+    "en-US": "Share with the users your channel or video collection through Vimeo. Activate it by entering the url in the configuration section, for example http://vimeo.com/channels/MyChannel."
   },
   "documentation": {
     "es-ES": "modules/vimeovideo/documentation/es_ES.md",
     "en-US": "modules/vimeovideo/documentation/en_US.md"
   },
   "descriptionShort": {
-    "es-ES": "Ofrece a tus seguidores vídeos procedentes de Vimeo",
-    "en-US": "Ofrece a tus seguidores vídeos procedentes de Vimeo"
+    "es-ES": "Comparte tus videos con Vimeo!",
+    "en-US": "Share your videos with Vimeo!"
   },
   "icon": "vimeo",
   "type": "A",

@@ -1,6 +1,6 @@
 {
   "name": "koapp-module-vimeovideo",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Ofrece a tus seguidores vídeos procedentes de Vimeo",
   "directories": {
     "test": "test"

@@ -5,5 +5,5 @@ El mundo no se acaba en **Youtube**. Servicios de reproducción de vídeo lo hay
 ### Details:
 
 - Author: King of app
-- Version: 1.0.5
+- Version: 1.0.6
 - Homepage:

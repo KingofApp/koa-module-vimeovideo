@@ -1,62 +1,65 @@
 {
-  "name": "Vimeo Video",
-  "identifier": "vimeovideo",
-  "description": {
-    "es-ES": "Comparte con los usuarios tu canal o colección de videos a través de Vimeo. Actívalo entrando la url en el apartado de configuración, por ejemplo http://vimeo.com/channels/MiCanal.",
-    "en-US": "Share with the users your channel or video collection through Vimeo. Activate it by entering the url in the configuration section, for example http://vimeo.com/channels/MyChannel."
-  },
-  "documentation": {
-    "es-ES": "modules/vimeovideo/documentation/es_ES.md",
-    "en-US": "modules/vimeovideo/documentation/en_US.md"
-  },
-  "descriptionShort": {
-    "es-ES": "Comparte tus videos con Vimeo!",
-    "en-US": "Share your videos with Vimeo!"
-  },
-  "icon": "vimeo",
-  "type": "A",
-  "version": "1.0.6",
-  "author": "King of App",
-  "category": [
-    "media"
-  ],
-  "price": 0,
-  "subscription": false,
-  "canContain": false,
-  "platforms": [
-    "android",
-    "ios",
-    "windows"
-  ],
-  "view": "modules/vimeovideo/index.html",
-  "files": [
-    "modules/vimeovideo/controller.js", "modules/vimeovideo/directive.js"
-  ],
-  "scope": {
-    "videoid": ""
-  },
-  "config": [{
-    "key": "videoid",
-    "templateOptions": {
-      "label": "id",
-      "required": true,
-      "pattern": "^[0-9]+$",
-      "description": "id del video"
+    "name": "Vimeo Video",
+    "identifier": "vimeovideo",
+    "description": {
+        "es-ES": "Comparte con los usuarios tu canal o colección de videos a través de Vimeo. Actívalo entrando la url en el apartado de configuración, por ejemplo http://vimeo.com/channels/MiCanal.",
+        "en-US": "Share with the users your channel or video collection through Vimeo. Activate it by entering the url in the configuration section, for example http://vimeo.com/channels/MyChannel."
     },
-    "type": "input"
-  }],
-  "showOn": {
-    "dragDrop": true,
-    "menu": true,
-    "market": true
-  },
-  "images": {
-    "list": "modules/vimeovideo/images/vimeo_list.png",
-    "screenshots": [
-      "modules/vimeovideo/images/vimeo_screenshots01.png"
+    "documentation": {
+        "es-ES": "modules/vimeovideo/documentation/es_ES.md",
+        "en-US": "modules/vimeovideo/documentation/en_US.md"
+    },
+    "descriptionShort": {
+        "es-ES": "Comparte tus videos con Vimeo!",
+        "en-US": "Share your videos with Vimeo!"
+    },
+    "icon": "vimeo",
+    "type": "A",
+    "version": "1.0.7",
+    "author": "King of App",
+    "category": [
+        "media"
     ],
-    "popover": "modules/vimeovideo/images/vimeo_popover.png",
-    "banner": "modules/vimeovideo/images/vimeo_popover.png",
-    "logo": "modules/vimeovideo/images/vimeo_icon.png"
-  }
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/vimeovideo/index.html",
+    "files": [
+        "modules/vimeovideo/controller.js",
+        "modules/vimeovideo/directive.js"
+    ],
+    "scope": {
+        "videoid": ""
+    },
+    "config": [
+        {
+            "key": "videoid",
+            "templateOptions": {
+                "label": "id",
+                "required": true,
+                "pattern": "^[0-9]+$",
+                "description": "id del video"
+            },
+            "type": "input"
+        }
+    ],
+    "showOn": {
+        "dragDrop": true,
+        "menu": true,
+        "market": true
+    },
+    "images": {
+        "list": "modules/vimeovideo/images/vimeo_list.png",
+        "screenshots": [
+            "modules/vimeovideo/images/vimeo_screenshots01.png"
+        ],
+        "popover": "modules/vimeovideo/images/vimeo_popover.png",
+        "banner": "modules/vimeovideo/images/vimeo_popover.png",
+        "logo": "modules/vimeovideo/images/vimeo_icon.png"
+    }
 }
